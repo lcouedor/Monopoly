@@ -1,0 +1,189 @@
+@font-face {
+	src: url('Nunito-Light.ttf');
+}
+
+@font-face {
+	src: url('Nunito-Bold.ttf');
+}
+
+@font-face {
+	src: url('ComicsTricks.ttf');
+}
+
+*{
+	 -fx-font-family: 'Nunito';
+}
+
+.list-view .list-cell:focused, .list-view .list-cell:selected{
+	-fx-background-color:#0097d8;
+}
+
+.liste-transparente .list-view, .liste-transparente .list-cell, .liste-transparente .list-cell:focused {
+	-fx-background-color:transparent;
+	-fx-text-fill:black;
+}
+
+.scroll-bar,
+.scroll-bar .decrement-arrow,
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-button,
+.scroll-bar .increment-button {
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+ 
+.scroll-bar-perso:vertical .thumb {
+    -fx-background-insets: 0 2 0 0;
+}
+ 
+.scroll-bar-perso:horizontal .thumb {
+    -fx-background-insets: 0 0 2 0;
+}
+ 
+.scroll-bar-perso .decrement-arrow,
+.scroll-bar-perso .increment-arrow {
+    -fx-pref-width: 0;
+    -fx-pref-height: 0;
+}
+ 
+.scroll-bar-perso {
+    -fx-background-color: transparent;
+    -fx-pref-width: 12;
+    -fx-pref-height: 12;
+    -fx-padding: 2;
+}
+ 
+.scroll-bar-perso .thumb {
+    -fx-background-color: rgba(0, 0, 0, .2);
+    -fx-background-radius: 1000;
+    -fx-pref-width: 12;
+    -fx-pref-height: 12;
+}
+
+.radio-button .radio{
+	-fx-background-color: white;
+	-fx-background-radius: 50%;
+	-fx-border-color: black;
+	-fx-border-radius: 50%;
+}
+
+.radio-button:selected .radio .dot {
+    -fx-background-color: black;
+    -fx-background-insets: 0;
+}
+
+.check-box .box{
+	-fx-background-color: white;
+	-fx-border-color: black;
+}
+
+.check-box:selected .box .mark {
+    -fx-background-color: black;
+    -fx-background-insets: 0;
+}
+
+.arrow-button, .decrement-arrow-button, .increment-arrow-button{
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 0 3;
+    -fx-border-color: black;
+}
+
+.increment-arrow-button{
+	-fx-border-width: 0 0 1.5 3;
+}
+
+.decrement-arrow-button{
+	-fx-border-width: 1.5 0 0 3;
+}
+
+.arrow,.increment-arrow, .decrement-arrow{
+    -fx-background-color:black;
+}
+
+.s25{
+	-fx-font-size:25;
+}
+
+.s35{
+	-fx-font-size:35;
+}
+
+.red{
+	-fx-text-fill:red;
+}
+
+.green{
+	-fx-text-fill:green;
+}
+
+.white{
+	-fx-text-fill:white;
+}
+
+.bold{
+	-fx-font-weight:bold;
+}
+
+.bg-white{
+	-fx-background-color:white;
+}
+
+.bg-red{
+	-fx-background-color:red;
+}
+
+.border{
+	-fx-border-color:black;
+	-fx-border-width:1;
+}
+
+.bw-2{
+	-fx-border-width:2;
+}
+
+.bw-3{
+	-fx-border-width:3;
+}
+
+.bw-5{
+	-fx-border-width:5;
+}
+
+.p-10{
+	-fx-padding:10;
+}
+
+.p-5{
+	-fx-padding:5;
+}
+
+.p-m10{
+	-fx-padding:-10;
+}
+
+.pb-10{
+	-fx-padding:0 0 10 0;
+}
+
+.bouton{
+	-fx-border-color: black;
+	-fx-border-width: 3;
+	-fx-background-color: white;
+	-fx-font-size: 30;
+	-fx-font-weight: bold;
+}
+
+.selecPion{
+	-fx-background-radius: 10px;
+	-fx-background-color: #09153f;
+}
+
+.outline.label .text {
+    -fx-fill: black;
+    -fx-stroke: black;
+    -fx-stroke-width: 0.5px;
+}
+
+.grosoutline.label .text{
+	-fx-stroke-width: 1px;
+}
